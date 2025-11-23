@@ -1,0 +1,25 @@
+# rustfmt.toml — HFT bot
+
+# Editions
+edition = "2024"
+style_edition = "2024"
+
+# Width & indentation
+max_width = 80
+hard_tabs = true       # <- use tabs
+tab_spaces = 4
+newline_style = "Unix"
+
+# Heuristics
+use_small_heuristics = "Default"
+
+# Imports
+reorder_imports = true
+# Optional (nice for tidy imports; may be unavailable on older rustfmt builds):
+# imports_granularity = "Crate"
+# group_imports = "StdExternalCrate"
+
+# Light cleanups
+remove_nested_parens = true
+use_try_shorthand = true
+use_field_init_shorthand = true

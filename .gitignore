@@ -1,0 +1,14 @@
+target
+script
+assets
+.env
+*.csv
+
+equity_curves/
+
+.idea/
+.vscode/
+.DS_Store
+repomix*
+
+*.log
